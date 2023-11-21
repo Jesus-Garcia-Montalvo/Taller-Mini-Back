@@ -1,33 +1,45 @@
 {
-    "characters": [
-      {
-        "_id": "1",
-        "Nombre": "Krusty el payaso",
-        "Historia": "Herschel Schmoeckel Pinchas Yerucham Krustofsky (apellido que también se escribe Krustofski ) es el cínico, quemado y plagado de adicciones payaso presentador del programa de televisión favorito de Bart y Lisa",
-        "Genero": "Masculino",
-        "Estado": "Vivo",
-        "Ocupacion": "Personalidad de televisión",
-        "updatedAt": "2023-03-13T00:30:55.514Z",
-        "Imagen": "https://res.cloudinary.com/dglqojivj/image/upload/v1682559693/simpsons/250px-Krusty_the_Clown_nz1z1o.png"
-      },
-      {
-        "_id": "2",
-        "Nombre": "Cletus",
-        "Historia": "Cletus Del Roy Montfort Bigglesworth Spuckler , también conocido como Cletus the Slack-Jawed Yokel , es un campesino sureño estereotípico con una personalidad afable, es delgado y generalmente se lo representa con un par de jeans. Reside con su familia en la Ruta Rural 9 en Springfield .",
-        "Genero": "Masculino",
-        "Estado": "Vivo",
-        "Ocupacion": "Granjero, trabajador de la construcción",
-        "Imagen": "https://res.cloudinary.com/dglqojivj/image/upload/v1682559693/simpsons/250px-Cletus_Spuckler_rvpr9g.png"
-      },
-      {
-        "_id": "3",
-        "Nombre": "Kirk Van Houten",
-        "Historia": "Kirk Evelyn Van Houten es el padre desempleado de Milhouse y el esposo vuelto a casar de Luann.",
-        "Genero": "Masculino",
-        "Estado": "Vivo",
-        "Ocupacion": "Desempleado",
-        "Imagen": "https://static.simpsonswiki.com/images/2/20/Kirk_Van_Houten.png"
-      }
-    ]
-  }
-  
+  "characters": [
+    {
+      "_id": "1",
+      "Nombre": "Krusty el payaso",
+      "Historia": "Herschel Schmoeckel Pinchas Yerucham Krustofsky (apellido que también se escribe Krustofski ) es el cínico, quemado y plagado de adicciones payaso presentador del programa de televisión favorito de Bart y Lisa",
+      "Genero": "Masculino",
+      "Estado": "Vivo",
+      "Ocupacion": "Personalidad de televisión",
+      "updatedAt": "2023-03-13T00:30:55.514Z",
+      "Imagen": "https://res.cloudinary.com/dglqojivj/image/upload/v1682559693/simpsons/250px-Krusty_the_Clown_nz1z1o.png"
+    },
+    {
+      "_id": "2",
+      "Nombre": "Cletus",
+      "Historia": "Cletus Del Roy Montfort Bigglesworth Spuckler , también conocido como Cletus the Slack-Jawed Yokel , es un campesino sureño estereotípico con una personalidad afable, es delgado y generalmente se lo representa con un par de jeans. Reside con su familia en la Ruta Rural 9 en Springfield .",
+      "Genero": "Masculino",
+      "Estado": "Vivo",
+      "Ocupacion": "Granjero, trabajador de la construcción",
+      "Imagen": "https://res.cloudinary.com/dglqojivj/image/upload/v1682559693/simpsons/250px-Cletus_Spuckler_rvpr9g.png"
+    },
+    {
+      "_id": "3",
+      "Nombre": "Kirk Van Houten",
+      "Historia": "Kirk Evelyn Van Houten es el padre desempleado de Milhouse y el esposo vuelto a casar de Luann.",
+      "Genero": "Masculino",
+      "Estado": "Vivo",
+      "Ocupacion": "Desempleado",
+      "Imagen": "https://static.simpsonswiki.com/images/2/20/Kirk_Van_Houten.png"
+    }
+  ],
+    "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Jesus"
+    }
+  ],
+  "tareas": [
+    {
+      "id": 1,
+      "descripcion": "Taller de Nivelación",
+      "usuarioId": 3
+    }
+  ]
+}
